@@ -61,4 +61,9 @@ function sortearAmigo() {
     // Mostrar el resultado en la lista de resultados
     const resultado = document.getElementById("resultado");
     resultado.innerHTML = `<li>🎁 Tu amigo secreto es: <strong>${amigoSecreto}</strong></li>`;
+
+    // Vaciar la lista de amigos
+    amigos = [];
+    actualizarLista();    
+    
 }
